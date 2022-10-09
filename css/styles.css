@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 16px;
+  color: #e7c321;
+  text-shadow: 2px 1px #f30acc;
+}
+
+body {
+  background-image: url("https://images6.alphacoders.com/939/939537.jpg");
+  background-size: cover, auto;
+  background-repeat: no-repeat;
+  padding-left: 5%;
+}
