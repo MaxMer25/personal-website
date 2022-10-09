@@ -11,6 +11,7 @@ body {
   background-size: cover, auto;
   background-repeat: no-repeat;
   padding-left: 5%;
+  width: 1420px;
 }
 
 h1 {
@@ -33,4 +34,7 @@ h1 {
   width: 500px;
   height: 250px;
   margin: 50px;
+}
+
+.cvdate {
 }
