@@ -14,7 +14,7 @@ body {
 }
 
 .ueberschrift {
-  object-position: center;
+  object-position: ;
 }
 
 .contactlinks {
@@ -37,10 +37,14 @@ body {
 .cvdate {
 }
 
-.profilepic {
+.image {
   border: 3px solid rgb(242, 191, 252);
   border-radius: 9em;
-  height: auto;
   width: 16em;
-  object-position: center;
+}
+
+@media screen and (min-width: 900px) {
+  article {
+    padding: 1rem 3rem;
+  }
 }
