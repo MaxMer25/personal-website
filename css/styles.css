@@ -7,8 +7,6 @@
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
-  color: #ffeea0;
-  text-shadow: var(--textshadow);
 }
 
 body {
@@ -18,19 +16,22 @@ body {
   padding-left: 5%;
 }
 
-.ueberschrift {
-  object-position: ;
+.textcolor {
+  color: var(--textcolor);
+  text-shadow: var(--textshadow);
 }
 
-.contactlinks {
-  vertical-align: text-top;
-  width: 150px;
-  margin: auto;
+.nav {
+  list-style: none;
+  text-align: center;
+}
+
+.nav > li {
   display: inline-block;
 }
 
 .contactborders {
-  border: 3px solid white;
+  border: 3px solid var(--textcolor);
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
   padding: 10px;
@@ -48,11 +49,26 @@ body {
 .image {
   border: 3px solid rgb(242, 191, 252);
   border-radius: 9em;
-  width: 16em;
+  position: fixed;
+  top: 10%;
+  right: 10%;
 }
 
-@media screen and (min-width: 900px) {
-  article {
-    padding: 1rem 3rem;
-  }
+.contacimage {
+  vertical-align: text-top;
+  width: 150px;
+  margin: auto;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+  left: 0%;
+}
+
+footer {
+  position: sticky;
+  bottom: 0%;
+  left: 0%;
+  padding: 5%;
 }
