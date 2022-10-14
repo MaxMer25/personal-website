@@ -1,0 +1,6 @@
+.interests {
+  border: 3px solid var(--textcolor);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 10px;
+}
