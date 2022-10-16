@@ -1,6 +1,8 @@
 :root {
   --textcolor: #ffeea0;
   --textshadow: 2px 1px #f74eda;
+  --containeropacity: rgba(100, 100, 100, 0.3);
+  --headlineopacity: rgba(100, 50, 100, 0.3);
 }
 
 * {
@@ -13,7 +15,6 @@ body {
   color: white;
   background-image: url("../assets/939537.jpeg");
   background-size: cover;
-  background-repeat: repeat;
   background-position: center;
   height: 100vh;
   background-size: 3840px;

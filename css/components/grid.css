@@ -1,9 +1,9 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 1fr;
+  grid-template-rows: 200px 300px 1fr 1fr;
   justify-content: center;
-  gap: 5%;
+  gap: 7%;
 }
 
 h1 {
@@ -23,6 +23,8 @@ h1 {
   grid-column-start: 3;
   grid-row-start: 1 span 2;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
@@ -34,5 +36,10 @@ footer {
 }
 
 .cv {
-  grid-area: 4 / 1;
+  grid-area: 3 / 2;
+  background-color: var(--containeropacity);
+}
+
+.aboutme {
+  grid-row-start: 2 span 1;
 }
