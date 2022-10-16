@@ -15,7 +15,9 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 180px;
+  grid-template-rows: 700px 180px 1fr;
+  justify-content: center;
+  gap: 10%;
 }
 
 h1 {
@@ -23,12 +25,12 @@ h1 {
 }
 
 .contactinfo {
-  grid-area: 2 / 2;
+  grid-area: 3 / 2;
 }
 
 .interests {
   grid-column-start: 3;
-  grid-row-start: 3;
+  grid-row-start: 2;
 }
 
 .profilepic {
@@ -41,11 +43,11 @@ footer {
 }
 
 .contactgrid {
-  grid-area: 3 / 2;
+  grid-area: 2 / 2;
 }
 
 .cv {
-  grid-row-start: -1;
+  grid-area: 4 / 1;
 }
 /* Noch nicht funktionierend!
 .cvdate p {

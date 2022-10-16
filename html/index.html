@@ -20,7 +20,17 @@
           </nav>
           <button data-js="textFarbenButton">Angenehmere Textfarben</button>
         </header>
-        <img class="ueberschrift" src="../assets/ueber.png" alt="headline" />
+        <div class="ueberschrift">
+        <img src="../assets/ueber.png" alt="headline" />
+        <div class="contactinfo">
+          <nav #="Contact"></nav>
+          <ul class="contactlist">
+            <li>Num: +49159 06321415</li>
+            <li>Github: MaxMer25</li>
+            <li>e mail: max-mergenthal@gmx.de</li>
+          </ul>
+        </div>
+        </div>
 
         <section class="profilepic">
           <img
@@ -29,25 +39,17 @@
             width="180"
             alt="picture of me"
           />
+          <section class="interests">
+          
+            <h2>Interests</h2>
+            <ul>
+              <li>Music</li>
+              <li>Coding</li>
+              <li>Gaming</li>
+              <li>Cooking</li>
+            </ul>
+          </section>
         </section>
-
-        <section class="interests">
-          <h2>Interests</h2>
-          <ul>
-            <li>Music</li>
-            <li>Coding</li>
-            <li>Gaming</li>
-            <li>Cooking</li>
-          </ul>
-        </section>
-        <div class="contactinfo">
-          <nav #="Contact"></nav>
-          <ul>
-            <li>Num: +49159 06321415</li>
-            <li>Github: MaxMer25</li>
-            <li>e mail: max-mergenthal@gmx.de</li>
-          </ul>
-        </div>
 
         <!-- ↓GitHub, LinkedIn und Spotify↓ -->
 
@@ -102,7 +104,7 @@
 
         <!-- ↓Infos über mich↓ -->
 
-        <article>
+        <section class="about">
           <h3 class="aboutme">About me</h3>
           <p>
             Hey there, my name is Maximilian. I am 26 years old and on the way
@@ -113,6 +115,7 @@
             my picture, that i want to embedd on this site, won't get loaded.
             about to fix that now, wish me luck.
           </p>
+          </section>
 
           <!-- ↑Infos über mich↑ -->
 
@@ -157,7 +160,7 @@
               </li>
             </ul>
           </section>
-        </article>
+        </section>
         <footer>Copyright</footer>
       
     </body>
