@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 1fr;
+  justify-content: center;
+  gap: 5%;
+}
+
+h1 {
+  grid-area: 1 / 2;
+}
+
+.contactinfo {
+  grid-area: 3 / 2;
+}
+
+.interests {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.profilepic {
+  grid-column-start: 3;
+  grid-row-start: 1 span 2;
+  margin-bottom: 20px;
+}
+
+footer {
+  grid-row-start: 5;
+}
+
+.contactgrid {
+  grid-area: 2 / 2;
+}
+
+.cv {
+  grid-area: 4 / 1;
+}

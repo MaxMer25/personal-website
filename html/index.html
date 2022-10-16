@@ -8,25 +8,27 @@
     <script type="text/javascript" src="../javascript/index.js" defer></script>
     <title>My Website</title>
   </head>
-  <div class="grid">
-    <body class="textcolor">
+  <div class="grid backgroundimage">
+    <body class="textstyle textsize">
         <header>
           <nav>
-            <ul class="nav ul">
-              <li><a href="#biography">About me</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#contact">Contact</a></li>
+            <ul class="navbar">
+              <li><a class="textmedium" href="#biography">About me</a></li>
+              <li><a class="textmedium" href="#experience">Experience</a></li>
+              <li><a class="textmedium" href="#contact">Contact</a></li>
             </ul>
           </nav>
-          <button data-js="textFarbenButton">Angenehmere Textfarben</button>
+          <button class="textmedium textbutton" data-js="textFarbenButton">Angenehmere Textfarben</button>
         </header>
         <div class="ueberschrift">
-        <img src="../assets/ueber.png" alt="headline" />
+        <img src="../assets/ueber.png" width="1300" alt="headline" />
         <div class="contactinfo">
           <nav #="Contact"></nav>
-          <ul class="contactlist">
-            <li>Num: +49159 06321415</li>
-            <li>Github: MaxMer25</li>
+          <ul class="contactlist border2 textmedium">
+            <li>Num:
+               +49 159 06321415</li>
+            <li>Github:
+               MaxMer25</li>
             <li>e mail: max-mergenthal@gmx.de</li>
           </ul>
         </div>
@@ -36,10 +38,10 @@
           <img
             class="image profilepic"
             src="../assets/Max.jpg"
-            width="180"
+            width="400"
             alt="picture of me"
           />
-          <section class="interests">
+          <div class="interests textlarge">
           
             <h2>Interests</h2>
             <ul>
@@ -48,19 +50,18 @@
               <li>Gaming</li>
               <li>Cooking</li>
             </ul>
-          </section>
+          </div>
         </section>
 
         <!-- ↓GitHub, LinkedIn und Spotify↓ -->
 
-        <section class="contactborders contactgrid">
+        <section class="contactborders contactgrid textlarge">
           <figure class="contactlinks github">
             <a href="https://github.com/MaxMer25" target="blank">
               <img
                 class="contactimage"
                 src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png?w=360"
-                width="80"
-                length="80"
+                width="200"
                 alt="My Github Account"
               />
             </a>
@@ -75,8 +76,8 @@
               <img
                 class="contactimage"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
-                width="80"
-                length="80"
+                width="200"
+                
                 alt="My LinkedIn Account"
               />
             </a>
@@ -91,8 +92,8 @@
               <img
                 class="contactimage"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png"
-                width="80"
-                length="80"
+                width="200"
+                
                 alt="My spotify Account"
               />
             </a>
@@ -104,7 +105,7 @@
 
         <!-- ↓Infos über mich↓ -->
 
-        <section class="about">
+        <section class="about border textlarge">
           <h3 class="aboutme">About me</h3>
           <p>
             Hey there, my name is Maximilian. I am 26 years old and on the way
@@ -121,7 +122,7 @@
 
           <!-- ↓CV↓ -->
 
-          <section class="cv">
+          <section class="cv border textlarge">
             <ul>
               <li>
                 <p class="cvdate">
