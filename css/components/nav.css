@@ -1,0 +1,13 @@
+.nav {
+  list-style: none;
+  text-align: center;
+}
+
+.nav > li {
+  display: inline-block;
+  flex-direction: row;
+}
+
+.contactlist {
+  display: flex;
+}
