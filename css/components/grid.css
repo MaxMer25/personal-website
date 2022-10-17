@@ -48,6 +48,7 @@ footer {
   grid-area: 3 / 3;
   margin-top: 30%;
   padding: 0;
+  height: fit-content;
 }
 
 .cvlist {
