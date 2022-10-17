@@ -49,3 +49,7 @@ footer {
   margin-top: 30%;
   padding: 0;
 }
+
+.cv {
+  max-height: 80%;
+}

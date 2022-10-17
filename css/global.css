@@ -65,3 +65,7 @@ body {
   text-align: center;
   text-transform: italic;
 }
+
+h4, h3, h2 {
+  text-align: center;
+  text-decoration: underline double;
