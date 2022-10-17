@@ -50,6 +50,9 @@ footer {
   padding: 0;
 }
 
-.cv {
-  max-height: 80%;
+.cvlist {
+  grid-area: 4 / 2;
 }
+
+.cv {
+  height: fit-content;

@@ -12,12 +12,13 @@
 
 body {
   margin-left: 5%;
+  margin-right: 5%;
   color: white;
   background-image: url("../assets/939537.jpeg");
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-size: 3840px;
+
 }
 
 .textstyle {

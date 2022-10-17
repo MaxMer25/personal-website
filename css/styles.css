@@ -7,7 +7,6 @@
 @import url(components/nav.css);
 @import url(components/interests.css);
 @import url(components/contactinfo.css);
-@import url(components/cvlist.css);
 
 @media (max-width: 768px) {
   header {
