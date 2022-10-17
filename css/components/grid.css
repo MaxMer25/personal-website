@@ -43,3 +43,9 @@ footer {
 .aboutme {
   grid-row-start: 2 span 1;
 }
+
+.favorites {
+  grid-area: 3 / 3;
+  margin-top: 30%;
+  padding: 0;
+}
