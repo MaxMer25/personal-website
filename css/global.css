@@ -1,21 +1,67 @@
 :root {
   --textcolor: #ffeea0;
   --textshadow: 2px 1px #f74eda;
+  --containeropacity: rgba(100, 100, 100, 0.3);
+  --headlineopacity: rgba(100, 50, 100, 0.3);
 }
 
 * {
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.1em;
 }
 
 body {
-  background-image: url("https://images6.alphacoders.com/939/939537.jpg");
-  background-size: auto;
-  padding: 5vw;
+  margin-left: 5%;
+  color: white;
+  background-image: url("../assets/939537.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-size: 3840px;
 }
 
-.textcolor {
-  color: var(--textcolor);
+.textstyle {
   text-shadow: var(--textshadow);
+  color: var(--textcolor);
+}
+
+.border {
+  border: 3px solid var(--textcolor);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 0 20px;
+  width: fit-content;
+}
+
+.border2 {
+  border: 3px solid white;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.textsmall {
+  font-size: 10px;
+}
+
+.textmedium {
+  font-size: 30px;
+}
+
+.textlarge {
+  font-size: 50px;
+}
+
+.textbutton {
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.textbutton:hover {
+  background-color: bisque;
+}
+
+.favoriteheadline {
+  text-align: center;
+  text-transform: italic;
 }

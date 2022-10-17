@@ -8,25 +8,27 @@
     <script type="text/javascript" src="../javascript/index.js" defer></script>
     <title>My Website</title>
   </head>
-  <div class="grid">
-    <body class="textcolor">
+  <div class="grid backgroundimage">
+    <body class="textstyle textsize">
         <header>
           <nav>
-            <ul class="nav ul">
-              <li><a href="#biography">About me</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#contact">Contact</a></li>
+            <ul class="navbar">
+              <li><a class="textmedium" href="#biography">About me</a></li>
+              <li><a class="textmedium" href="#experience">Experience</a></li>
+              <li><a class="textmedium" href="#contact">Contact</a></li>
             </ul>
           </nav>
-          <button data-js="textFarbenButton">Angenehmere Textfarben</button>
+          <button class="textmedium textbutton" data-js="textFarbenButton">Angenehmere Textfarben</button>
         </header>
         <div class="ueberschrift">
-        <img src="../assets/ueber.png" alt="headline" />
+        <img src="../assets/ueber.png" width="1300" alt="headline" />
         <div class="contactinfo">
           <nav #="Contact"></nav>
-          <ul class="contactlist">
-            <li>Num: +49159 06321415</li>
-            <li>Github: MaxMer25</li>
+          <ul class="contactlist border2 textmedium">
+            <li>Num:
+               +49 159 06321415</li>
+            <li>Github:
+               MaxMer25</li>
             <li>e mail: max-mergenthal@gmx.de</li>
           </ul>
         </div>
@@ -36,31 +38,30 @@
           <img
             class="image profilepic"
             src="../assets/Max.jpg"
-            width="180"
+            width="400"
             alt="picture of me"
           />
-          <section class="interests">
+          <div class="interests textlarge">
           
-            <h2>Interests</h2>
+            <h2 class="textlarge">Interests</h2>
             <ul>
               <li>Music</li>
               <li>Coding</li>
               <li>Gaming</li>
               <li>Cooking</li>
             </ul>
-          </section>
+          </div>
         </section>
 
         <!-- ↓GitHub, LinkedIn und Spotify↓ -->
 
-        <section class="contactborders contactgrid">
+        <section class="contactborders contactgrid textlarge">
           <figure class="contactlinks github">
             <a href="https://github.com/MaxMer25" target="blank">
               <img
                 class="contactimage"
                 src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png?w=360"
-                width="80"
-                length="80"
+                width="200"
                 alt="My Github Account"
               />
             </a>
@@ -75,8 +76,8 @@
               <img
                 class="contactimage"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
-                width="80"
-                length="80"
+                width="200"
+                
                 alt="My LinkedIn Account"
               />
             </a>
@@ -91,8 +92,8 @@
               <img
                 class="contactimage"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png"
-                width="80"
-                length="80"
+                width="200"
+                
                 alt="My spotify Account"
               />
             </a>
@@ -104,8 +105,9 @@
 
         <!-- ↓Infos über mich↓ -->
 
-        <section class="about">
-          <h3 class="aboutme">About me</h3>
+        <section class="about textlarge">
+          <div class="border">
+          <h3 class="aboutme textlarge">About me</h3>
           <p>
             Hey there, my name is Maximilian. I am 26 years old and on the way
             becoming a Web Developer. This is my personal website and i hope you
@@ -115,17 +117,18 @@
             my picture, that i want to embedd on this site, won't get loaded.
             about to fix that now, wish me luck.
           </p>
+          </div>
           </section>
 
           <!-- ↑Infos über mich↑ -->
 
           <!-- ↓CV↓ -->
 
-          <section class="cv">
-            <ul>
+          <section class="cv border textlarge">
+            <ul class="cvlist">
               <li>
                 <p class="cvdate">
-                  08/2015 - 02/2019
+                  08/2015 - 02/2019 ||
                   <span class="cvdesc"
                     >Apprenticeship: industrial electronics technician</span
                   >
@@ -133,7 +136,7 @@
               </li>
               <li>
                 <p class="cvdate">
-                  03/2020 - 06/2020
+                  03/2020 - 06/2020 ||
                   <span class="cvdesc"
                     >Further education: Speicherprogrammierbare Steuerung SPS
                     (engl.: programmable logic controller, PLC): IBB Institut
@@ -143,7 +146,7 @@
               </li>
               <li>
                 <p class="cvdate">
-                  08/2020 - 03/2021
+                  08/2020 - 03/2021 ||
                   <span class="cvdesc"
                     >Industrial electronics technician: "DB Energie"</span
                   >
@@ -151,17 +154,40 @@
               </li>
               <li>
                 <p class="cvdate">
-                  06/2021 - 06/2022
+                  06/2021 - 06/2022 ||
                   <span class="cvdesc"
                     >Service technician in the field: "Deutsche Prüfservice
                     GmbH"</span
-                  >
+                  
+                  ><li>
+                    <p class="cvdate">
+                      10/2022 - present ||
+                      <span class="cvdesc"
+                        >Further education: Web Development: "Neuefische"</span>
                 </p>
               </li>
             </ul>
           </section>
         </section>
-        <footer>Copyright</footer>
+        <div class="border favorites">
+        <section class="textlarge favorites">
+          <h4>Favorite things</h4>
+
+          <ol><p class="favoriteheadline">Filme</p>
+            <li>Shawshank Redemption</li>
+            <li>Lord of the Rings</li>
+            <li>Gran Torino</li>
+          </ol>
+
+          <ol><p class="favoriteheadline">Songs</p>
+            <li>Metallica - Master of Puppets</li>
+            <li>Ogre sound - Negotiation's over</li>
+            <li>Prince - Purple Rain</li>
+          </ol>
+
+        </section>
+        </div>
+        <footer class="textmedium">Copyright</footer>
       
     </body>
   </div>

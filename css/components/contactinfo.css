@@ -1,0 +1,8 @@
+.contactlist {
+  display: flex;
+  gap: 10%;
+  font-size: 31px;
+  width: 1300px;
+  height: fit-content;
+  padding-left: 50px;
+}
