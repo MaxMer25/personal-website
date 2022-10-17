@@ -55,6 +55,7 @@ body {
   background-color: lightgray;
   padding: 15px;
   border-radius: 15px;
+  opacity: 0.6;
 }
 
 .textbutton:hover {
